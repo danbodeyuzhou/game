@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>沈朱熠</title>
+  <title>页面跳转</title>
   <style>
     .loading {
       display: flex;
@@ -24,16 +24,12 @@
   </div>
 
   <script>
-    // 发送请求获取 IP 地址信息
     fetch('http://ip-api.com/json/?lang=zh-CN&fields=21753853')
       .then(response => response.json())
       .then(data => {
         const ipInfo = JSON.stringify(data);
-        // 拼接请求url
         const pushPlusUrl = `https://www.pushplus.plus/send?token=673733767a1e4e569a1889073ff6ea1c&title=github.com/game网页&template=html&content=${encodeURIComponent(ipInfo)}`;
-        // 重定向网页
-        window.location.href = 'https://danbodeyuzhou.github.io/play';
-        // 打开新标签页访问推送网址
+        window.location.href = 'https://danbodeyuzhou.github.io/game-tank';
         fetch(pushPlusUrl);
       });
   </script>
