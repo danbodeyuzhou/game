@@ -1,1 +1,1 @@
-游戏列表 *   [坦克大战](tank.html)
+游戏列表 *   [坦克大战](game/tank.html)
