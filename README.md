@@ -1,8 +1,12 @@
 游戏列表 *   game.szy-szy.top/
 
-tank.html(坦克大战)
+tank.html(坦克大战v2)
 
-tank-test.html
+tank-test.html(v2.0.5)
+
+tank-test-local(本地，需同一浏览器)
+
+tank-test-cloud(在线联机)
 
 rock-paper-scissors.html(石头剪刀布)
 
