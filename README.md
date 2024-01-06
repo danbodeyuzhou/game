@@ -1,7 +1,15 @@
-游戏列表 *   坦克大战 danbodeyuzhou.github.io/game/tank.html
+游戏列表 *   game.szy-szy.top/
 
-rock-paper-scissors.html
+tank.html(坦克大战)
 
-no-touch
+tank_test.html
 
-paint
+rock-paper-scissors.html(石头剪刀布)
+
+no-touch(防误触)
+
+paint(画板)
+
+qt(蜻蜓点水演示）
+
+message(在线消息)
