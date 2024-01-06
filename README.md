@@ -2,7 +2,7 @@
 
 tank.html(坦克大战)
 
-tank_test.html
+tank-test.html
 
 rock-paper-scissors.html(石头剪刀布)
 
