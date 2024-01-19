@@ -1,7 +1,6 @@
 **实用工具系列：**  
 
-[message(在线消息]
-(https://game.szy-szy.top/message)，可在多个设备间互传文本消息)  
+[message(在线消息](https://game.szy-szy.top/message)，可在多个设备间互传文本消息)  
 
 [paint(画板](https://game.szy-szy.top/paint)，多人协作(云协作)测试密码:1237)  
 
