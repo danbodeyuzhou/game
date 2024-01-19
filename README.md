@@ -1,10 +1,10 @@
 **实用工具系列：**  
 
-[message(在线消息](https://game.szy-szy.top/message)，可在多个设备间互传文本消息)  
+[在线消息](https://game.szy-szy.top/message)，可在多个设备间互传文本消息)  
 
-[paint(画板](https://game.szy-szy.top/paint)，多人协作(云协作)测试密码:1237)  
+[画板](https://game.szy-szy.top/paint)，多人协作(云协作)测试密码:1237)  
 
-[no-touch(防误触](https://game.szy-szy.top/no-touch)，通过禁止鼠标移动和无视键盘按键。按esc退出)  
+[防误触](https://game.szy-szy.top/no-touch)，通过禁止鼠标移动和无视键盘按键。按esc退出)  
 
 ### 物理演示系列：  
 
