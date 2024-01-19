@@ -1,4 +1,6 @@
-游戏列表 *   game.szy-szy.top/
+游戏列表 *  
+ 
+game.szy-szy.top/
 
 tank.html(坦克大战v2)
 
