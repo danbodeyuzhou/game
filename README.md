@@ -8,11 +8,11 @@
 
 ### 物理演示系列：  
 
-[蜻蜓点水演示](https://game.szy-szy.top/wl/qt) v2.0.3 物理八上蜻蜓点水问题） 
+[蜻蜓点水演示](https://game.szy-szy.top/wl/qt)(v2.0.3 物理八上蜻蜓点水问题） 
  
 ### 游戏系列：
 
-[坦克大战](https://game.szy-szy.top/tank-test) v2.0.5)  
+[坦克大战](https://game.szy-szy.top/tank-test) (v2.0.5)  
 
 tank-test-cloud(坦克大战，支持在线联机)(测试版)  
 
