@@ -9,6 +9,10 @@
 ### 物理演示系列：  
 
 [蜻蜓点水演示](https://game.szy-szy.top/wl/qt)(v2.0.3 物理八上蜻蜓点水问题） 
+
+ ### 数学演示系列：
+
+ [四边形演示](https://game.szy-szy.top/sx/demo)(敬请期待)
  
 ### 游戏系列：
 
