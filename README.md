@@ -6,6 +6,8 @@
 
 [防误触](https://game.szy-szy.top/no-touch)(通过禁止鼠标移动和无视键盘按键。按esc退出)  
 
+[屏幕常亮](https://game.szy-szy.top/)(仅桌面端)(即将上线)
+
 ### 物理演示系列：  
 
 [蜻蜓点水演示](https://game.szy-szy.top/wl/qt)(v2.0.3 物理八上蜻蜓点水问题） 
@@ -16,11 +18,15 @@
  
 ### 游戏系列：
 
+[建造](https://game.szy-szy.top/build)(即将上线)
+
 [坦克大战](https://game.szy-szy.top/tank-test) (v2.0.5)  
 
 tank-test-cloud(坦克大战，支持在线联机)(测试版)  
 
 [石头剪刀布](https://game.szy-szy.top/rock-paper-scissors.html)(支持多人在线)  
+
+[手速测试](https://game.szy-szy.top/)(即将上线)
 
 即将推出：  
 
