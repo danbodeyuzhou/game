@@ -2,11 +2,11 @@
 
 [在线消息](https://game.szy-szy.top/message)(可在多个设备间互传文本消息)  
 
-[画板](https://game.szy-szy.top/paint)(多人协作(云协作)测试密码:1237)  
+[画板](https://game.szy-szy.top/paint)(多人协作测试:1237)  
 
-[防误触](https://game.szy-szy.top/no-touch)(通过禁止鼠标移动和无视键盘按键。按esc退出)  
+[防误触](https://game.szy-szy.top/no-touch)(禁止鼠标移动。按esc退出)  
 
-[屏幕常亮](https://game.szy-szy.top/)(仅桌面端)(即将上线)
+[屏幕常亮](https://game.szy-szy.top/wake-on)(仅桌面端)
 
 ### 物理演示系列：  
 
@@ -14,7 +14,7 @@
 
  ### 数学演示系列：
 
- [四边形演示](https://game.szy-szy.top/sx/demo)(敬请期待)
+ [四边形演示](https://game.szy-szy.top/)(敬请期待)
  
 ### 游戏系列：
 
