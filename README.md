@@ -1,4 +1,4 @@
-*页面作品由scratch制作，纯js页面
+*页面作品由scratch制作，纯js页面  
 ### 实用工具系列：
 
 [在线消息](https://game.szy-szy.top/message)(可在多个设备间互传文本消息)  
@@ -17,18 +17,13 @@
 
  [四边形演示](https://game.szy-szy.top/)(敬请期待)
  
-### 游戏系列：
-
-[建造](https://game.szy-szy.top/build)(即将上线)
-
-[坦克大战](https://game.szy-szy.top/tank-test) (v2.0.5)  
-
-tank-test-cloud(坦克大战，支持在线联机)(测试版)  
-
-[石头剪刀布](https://game.szy-szy.top/rock-paper-scissors.html)(支持多人在线)  
-
-[手速测试](https://game.szy-szy.top/)(即将上线)
-
+### 游戏系列：  
+[建造](https://game.szy-szy.top/build)(即将上线)  
+[坦克大战](https://game.szy-szy.top/tank-test) (v2.0.5)    
+tank-test-cloud(坦克大战，支持在线联机)(测试版)    
+球球大作战  
+[石头剪刀布](https://game.szy-szy.top/rock-paper-scissors.html)(支持多人在线)    
+[手速测试](https://game.szy-szy.top/)(即将上线)  
 ### 即将推出：  
 
 [账号管理](https://game.szy-szy.top/account) (管理以上联机游戏账号)
