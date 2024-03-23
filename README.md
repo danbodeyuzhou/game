@@ -15,16 +15,17 @@
 
  ### 数学演示系列：
 
- [四边形演示](https://game.szy-szy.top/)(敬请期待)
+ [四边形演示](https://game.szy-szy.top/sx/demo)(敬请期待)
  
 ### 游戏系列：  
+
+球球大作战
+
 [建造](https://game.szy-szy.top/build)(即将上线)  
 
 [坦克大战](https://game.szy-szy.top/tank-test) (v2.0.5)    
 
 tank-test-cloud(坦克大战，支持在线联机)(测试版)    
-
-球球大作战  
 
 [石头剪刀布](https://game.szy-szy.top/rock-paper-scissors.html)(支持多人在线)    
 
