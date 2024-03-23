@@ -29,6 +29,6 @@ tank-test-cloud(坦克大战，支持在线联机)(测试版)
 
 [手速测试](https://game.szy-szy.top/)(即将上线)
 
-即将推出：  
+### 即将推出：  
 
-账号管理 (管理以上联机游戏账号)
+[账号管理](https://game.szy-szy.top/account) (管理以上联机游戏账号)
