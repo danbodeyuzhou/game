@@ -1,3 +1,4 @@
+*页面作品由scratch制作，纯js页面
 ### 实用工具系列：
 
 [在线消息](https://game.szy-szy.top/message)(可在多个设备间互传文本消息)  
