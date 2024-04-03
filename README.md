@@ -23,7 +23,7 @@
 
 [建造](https://game.szy-szy.top/build)(即将上线)  
 
-[坦克大战](https://game.szy-szy.top/tank-test) (v2.0.5)    
+[坦克大战](https://game.szy-szy.top/tank) (v2.0.5)    
 
 tank-test-cloud(坦克大战，支持在线联机)(测试版)    
 
