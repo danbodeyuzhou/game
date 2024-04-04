@@ -10,6 +10,9 @@
     <p id="count"></p>
 
     <script>
+        if (urlParams.get('dark') == '1') {
+            document.getElementById('dynamic-styles').textContent = 'body { color: white; }';
+        }
         var urlParams = new URLSearchParams(window.location.search);
         document.getElementById('info').textContent = '（来自' + urlParams.get('info') + '）';
         document.getElementById('txt').textContent = urlParams.get('txt');
