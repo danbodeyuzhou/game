@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>message</title>
+    <script>
+        function closeWindow() {
+            window.close();
+        }
+    </script>
+</head>
+<body>
+    <p id="text"></p>
+    <button onclick="closeWindow()">关闭</button>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const text = urlParams.get('txt');
+        document.getElementById('text').innerText = text;
+    </script>
+</body>
+</html>
