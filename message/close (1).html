@@ -13,7 +13,7 @@
         var urlParams = new URLSearchParams(window.location.search);
         document.getElementById('info').textContent = '（来自' + urlParams.get('info') + '）';
         document.getElementById('txt').textContent = urlParams.get('txt');
-        let copyText = document.getElementById('txt').textContent;
+        var copyText = document.getElementById('txt').textContent;
         document.getElementById('count').textContent = '字数：' + copyText.length;
         function copyText() {
             navigator.clipboard.writeText(copyText);
