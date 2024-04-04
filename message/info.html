@@ -1,22 +1,12 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>message</title>
-    <script>
-        function closeWindow() {
-            window.close();
-        }
-    </script>
+  <title>关闭页面的示例</title>
+  <script src="index.js"></script>
 </head>
 <body>
-    <p id="text"></p>
-    <button onclick="closeWindow()">关闭</button>
-    <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const text = urlParams.get('txt');
-        document.getElementById('text').innerText = text;
-    </script>
+  <h1>这是一个关闭按钮的示例</h1>
+  <!-- 点击这个按钮后，页面将会关闭 -->
+  <button id="closeButton">关闭页面</button>
 </body>
 </html>
