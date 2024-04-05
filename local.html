@@ -1,23 +1,22 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>读取本地存储</title>
-<script>
-function loadText() {
-  // 尝试读取本地存储中命名空间"file"下的"text"值
-  var text = localStorage.getItem('file.text');
-  
-  // 如果读取到值，则将其显示在id为"display"的元素中
-  // 如果未读取到值，则显示"未找到存储的文本"
-  var displayElement = document.getElementById('display');
-  displayElement.innerHTML = text || '未找到存储的文本';
-}
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>显示localStorage中的file值</title>
 </head>
-<body onload="loadText();">
-
-<div id="display"></div>
-
+<body>
+    <h1>localStorage中的file值：</h1>
+    <p id="fileValue"></p>
+    <script>
+        // 检查localStorage中是否存在名为"file"的值
+        if (localStorage.getItem("file")) {
+            // 如果存在，则将其显示在页面上
+            document.getElementById("fileValue").innerText = localStorage.getItem("file");
+        } else {
+            // 如果不存在，则显示提示信息
+            document.getElementById("fileValue").innerText = "localStorage中没有名为'file'的值";
+        }
+    </script>
 </body>
 </html>
