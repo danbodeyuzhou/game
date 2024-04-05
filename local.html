@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>读取本地存储</title>
+<script>
+function loadText() {
+  // 尝试读取本地存储中命名空间"file"下的"text"值
+  var text = localStorage.getItem('file.text');
+  
+  // 如果读取到值，则将其显示在id为"display"的元素中
+  // 如果未读取到值，则显示"未找到存储的文本"
+  var displayElement = document.getElementById('display');
+  displayElement.innerHTML = text || '未找到存储的文本';
+}
+</script>
+</head>
+<body onload="loadText();">
+
+<div id="display"></div>
+
+</body>
+</html>
