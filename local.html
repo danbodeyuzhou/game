@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Text Save to Local Storage</title>
+    <style>
+        body, textarea {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+        textarea {
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+            resize: none; /* Prevent manual resizing of the textarea */
+        }
+    </style>
+</head>
+<body>
+
+<textarea id="fullPageTextBox" oninput="saveToLocalStorage()" placeholder="Type here..."></textarea>
+
+<script>
+    // Function to save the textarea content to localStorage
+    function saveToLocalStorage() {
+        const textBox = document.getElementById('fullPageTextBox');
+        localStorage.setItem('abc', textBox.value);
+    }
+
+    // Load saved content from localStorage on page load
+    window.onload = function() {
+        const textBox = document.getElementById('fullPageTex
