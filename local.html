@@ -30,4 +30,13 @@
 
     // Load saved content from localStorage on page load
     window.onload = function() {
-        const textBox = document.getElementById('fullPageTex
+        const textBox = document.getElementById('fullPageTextBox');
+        const savedContent = localStorage.getItem('abc');
+        if (savedContent) {
+            textBox.value = savedContent;
+        }
+    };
+</script>
+
+</body>
+</html>
