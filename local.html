@@ -3,40 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real-time Text Save to Local Storage</title>
+    <title>Document</title>
     <style>
-        body, textarea {
-            margin: 0;
-            padding: 0;
+        textarea {
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
             height: 100%;
-        }
-        textarea {
-            box-sizing: border-box; /* Include padding and border in the element's total width and height */
-            resize: none; /* Prevent manual resizing of the textarea */
+            resize: none;
         }
     </style>
 </head>
 <body>
+    <textarea id="scoreTextarea"></textarea>
+    <script>
+        const scoreTextarea = document.getElementById('scoreTextarea');
+        const localStrong = JSON.parse(localStorage.getItem('project-szy-extensions-local-storage'));
+        scoreTextarea.value = localStrong.data.data；
 
-<textarea id="fullPageTextBox" oninput="saveToLocalStorage()" placeholder="Type here..."></textarea>
-
-<script>
-    // Function to save the textarea content to localStorage
-    function saveToLocalStorage() {
-        const textBox = document.getElementById('fullPageTextBox');
-        localStorage.setItem('abc', textBox.value);
-    }
-
-    // Load saved content from localStorage on page load
-    window.onload = function() {
-        const textBox = document.getElementById('fullPageTextBox');
-        const savedContent = localStorage.getItem('abc');
-        if (savedContent) {
-            textBox.value = savedContent;
-        }
-    };
-</script>
-
+        scoreTextarea.addEventListener('input', () => {
+            localStrong.data.data = scoreTextarea.value;
+            localStorage.setItem('project-szy-extensions-local-storage', JSON.stringify(localStrong));
+        });
+    </script>
 </body>
 </html>
