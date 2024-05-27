@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+video {
+width: 100%;
+max-width: 400px;
+}
+</style>
+</head>
+<body>
+<video id="video" autoplay></video>
+<button id="toggleButton">暂停/恢复</button>
+<button id="switchButton">切换摄像头</button>
+<script>
+const video = document.getElementById('video');
+const toggleButton = document.getElementById('toggleButton');
+const switchButton = document.getElementById('switchButton');
+
+let currentFacingMode = 'user';
+
+function startCamera() {
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+navigator.mediaDevices.getUserMedia({ video: { facingMode: currentFacingMode } })
+.then(function (stream) {
+video.srcObject = stream;
+video.play();
+})
+.catch(function (error) {
+console.error("无法访问摄像头", error);
+});
+} else {
+console.error("浏览器不支持 getUserMedia");
+}
+}
+
+toggleButton.addEventListener('click', function () {
+if (video.paused) {
+video.play();
+} else {
+video.pause();
+}
+});
+
+switchButton.addEventListener('click', function () {
+currentFacingMode = currentFacingMode === 'user' ? 'environment' : 'user';
+video.srcObject.getTracks().forEach(track => track.stop());
+startCamera();
+});
+
+startCamera();
+</script>
+</body>
+</html>
