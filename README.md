@@ -1,9 +1,10 @@
 *页面作品由scratch制作，纯js页面  
 ### 实用工具系列：
+[帮助文档](https://shenzy.notion.site/)(仅桌面端
 
-[在线消息](https://game.szy-szy.top/message)(可在多个设备间互传文本消息)  
+[在线消息](message)(可在多个设备间互传文本消息)  
 
-[画板](https://game.szy-szy.top/paint)(多人协作测试:1237)  
+[画板](paint) 
 
 [防误触](https://game.szy-szy.top/no-touch)(禁止鼠标移动。按esc退出)  
 
