@@ -1,5 +1,6 @@
 网站即将转移到
-## [ide.szysite.com]  
+## [creative.szysite.com]  
+后续本页面作品将不再更新
 *页面作品由scratch制作，纯js页面  
 [帮助文档](https://shenzy.notion.site/52f83445a9584443a38c6f5b137fb333)
 ### 实用工具系列：
