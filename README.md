@@ -1,5 +1,5 @@
 网站即将转移到
-## [creative.szysite.com](creative.szysite.com)  
+## [creative.szysite.com](https://creative.szysite.com)  
 后续本页面作品将不再更新  
 *页面作品由scratch制作，纯js页面  
 [帮助文档](https://shenzy.notion.site/52f83445a9584443a38c6f5b137fb333)
@@ -19,7 +19,7 @@
 
 ### 数学演示系列：
 
- [几何画图](https://game.szy-szy.top/sx/demo)
+ [几何画图](sx/demo)
  
 ### 游戏系列：  
 
