@@ -7,9 +7,9 @@
 
 [在线消息](message)(可在多个设备间互传文本消息)  
 
-[画板](paint) 
+[画板](https://creative.szysite.com/paint) 
 
-[防误触](no-touch)(禁止鼠标移动。按esc退出)  
+[防误触](https://creative.szysite.com/no-touch)(禁止鼠标移动。按esc退出)  
 
 [屏幕常亮](wake-on)(仅桌面端)
 
@@ -35,4 +35,4 @@ tank-test-cloud(坦克大战，支持在线联机)(测试版)
 
 [手速测试](https://game.szy-szy.top/)(即将上线)  
 
-[账号管理](account) (管理以上联机游戏账号)
+[账号管理](https://creative.szysite.com/account) (管理以上联机游戏账号)
