@@ -3,15 +3,13 @@
 后续本页面作品将不再更新  
 *页面作品由scratch制作，纯js页面  
 [帮助文档](https://shenzy.notion.site/52f83445a9584443a38c6f5b137fb333)
-### 实用工具系列：
-
-[在线消息](message)(可在多个设备间互传文本消息)  
+### 实用工具系列： 
 
 [画板](https://creative.szysite.com/paint) 
 
-[防误触](https://creative.szysite.com/no-touch)(禁止鼠标移动。按esc退出)  
+[防误触](https://creative.szysite.com/)(禁止鼠标移动。按esc退出)  
 
-[屏幕常亮](wake-on)(仅桌面端)
+[屏幕常亮](https://creative.szysite.com/wake-lock)(仅桌面端)
 
 ### 物理演示系列：  
 
@@ -31,7 +29,7 @@
 
 tank-test-cloud(坦克大战，支持在线联机)(测试版)    
 
-[石头剪刀布](rock-paper-scissors)(支持多人在线)    
+[石头剪刀布](https://creative.szysite.com/rock-paper-scissors)(支持多人在线)    
 
 [手速测试](https://game.szy-szy.top/)(即将上线)  
 
